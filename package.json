@@ -1,0 +1,28 @@
+{
+  "name": "thegrounditself",
+  "version": "1.0.0",
+  "description": "A personal Project that allows me to play a tabletop role playing game I enjoy within the console, by myself, lol. Link: https://everestpipkin.itch.io/the-ground-itself \"The Ground Itself is a one-session storytelling game for 2-5 players, played with household materials (a coin, a six-sided die, and a deck of cards).",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chphoom/thegrounditself.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chphoom/thegrounditself/issues"
+  },
+  "homepage": "https://github.com/chphoom/thegrounditself#readme",
+  "dependencies": {
+    "card-deck": "^1.0.1",
+    "express": "^4.18.2",
+    "minimist": "^1.2.7"
+  }
+}
